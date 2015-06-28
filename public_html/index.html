@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Node | First step</title>
+    <meta name="description" content="Description du site">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+
+<body>
+    <input type="text" id="input" placeholder="text here">//lz
+    <a href="#" onclick="envoyerMessage()">Envoyer</a>
+    <a href="#" onclick="envoyerMessagePrive()">Message privé</a>
+
+    <div id="messages"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/socket.js"></script>
+</body>
+
+</html>
